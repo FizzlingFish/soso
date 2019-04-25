@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, textarea, blockquote, th, td {
+    font-family: microsoft yahei,"å®‹ä½“",Arial, Helvetica;
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.cus01 {
+    height: 170px;
+    padding: 0px 20px;
+}
+.cus02 {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    clear: both;
+    height: 170px;
+}
+.cusImg {
+    width: 127px;
+    height: 127px;
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+}
+.cusName {
+    width: 600px;
+    float: left;
+    margin: 10px;
+}
+.cusName p {
+    line-height: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #333;
+    font-family: "microsoft yahei";
+    padding: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.cus02 li {
+    width: 188px;
+    padding: 25px 40px;
+    border-left: 1px solid #ddd;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+.cus02 li:first-child {
+    border-left: none!important;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.cus02 li p a {
+    float: right;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.cus02 li p span, .cus02 li p a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+    font-family: "microsoft yahei";
+    height: 26px;
+    line-height: 26px;
+}
+.cus02 li span font {
+    min-width: 60px;
+    display: inline-block;
+    color: #ff6561;
+    font-size: 30px;
+    font-family: "microsoft yahei";
+}
+.cusName span {
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    font-family: "microsoft yahei";
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.cusName span.bdTell {
+    display: inline-block!important;
+    width: 88px;
+}
+.cusName span {
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    font-family: "microsoft yahei";
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.cus02 {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    clear: both;
+}
+ol, ul {
+    list-style: none;
+}
+.cus03 {
+    width: 812px;
+    background: white;
+    height: 53px;
+    padding: 10px 0;
+    margin-left: -1px;
+    border-left: 1px solid #f0f1f5;
+    border-right: 1px solid #f0f1f5;
+}
+.cus03 .mess {
+    background: #ffffeb;
+    border: 1px solid #dede8f;
+    height: 53px;
+    position: relative;
+}
+.cus03 .mess a {
+    line-height: 55px;
+    color: #333333;
+    font-size: 14px;
+    padding-left: 55px;
+    font-family: "microsoft yahei";
+}
+.cus03 .mess a i {
+    width: 25px;
+    height: 25px;
+    background: url(../images/messImg.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+element.style {
+    line-height: 60px;
+    font-size: 12px;
+}
+.circliful {
+    position: relative;
+}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+.circle-info, .circle-info-half {
+    color: #999;
+}

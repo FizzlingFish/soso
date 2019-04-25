@@ -1,0 +1,40 @@
+/*
+ * 表单总体布局
+ */
+#form-container {
+    margin-top: 100px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #00CCFF;
+}
+
+.frame{background:url(../images/bg_img.png) repeat;  position:relative;border:1px solid #dddddd; }
+
+
+.cusName {
+    width: 600px;
+    float: left;
+    margin: 10px;
+}
+/*
+ * 标签
+ */
+label {
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+#Sellerber .Sellerber_bottom {
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #dddddd;
+    width: 100%;
+    background-color: #438EB9;
+    color: #FFF;
+}
+#Sellerber .Sellerber_bottom{ position:fixed; bottom:0px; border-top:1px solid #dddddd; width:100%;}
+#Sellerber .Sellerber_bottom span{ padding:0px 10px;}
+.r_f{ float:right}
+/*
+
+*/
